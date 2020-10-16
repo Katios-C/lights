@@ -37,10 +37,24 @@
                                     <constraint firstAttribute="width" secondItem="iTQ-RR-g00" secondAttribute="height" multiplier="1:1" id="06P-1E-FHD"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jj8-3P-ury">
+                                <rect key="frame" x="116.66666666666669" y="755" width="181" height="58"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="181" id="Unp-fY-3RE"/>
+                                    <constraint firstAttribute="height" constant="58" id="fWe-W5-ojH"/>
+                                </constraints>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
+                                    <color key="titleShadowColor" systemColor="systemOrangeColor"/>
+                                </state>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jj8-3P-ury" secondAttribute="bottom" constant="49" id="5sP-kp-L8b"/>
+                            <constraint firstItem="jj8-3P-ury" firstAttribute="centerX" secondItem="iTQ-RR-g00" secondAttribute="centerX" id="GuP-qj-LSh"/>
                             <constraint firstItem="iTQ-RR-g00" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="3:28" id="Mbc-YA-QoQ"/>
                             <constraint firstItem="4KH-mB-Gi0" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="RPf-wm-aR2"/>
                             <constraint firstItem="iTQ-RR-g00" firstAttribute="top" secondItem="NMV-cx-zVQ" secondAttribute="bottom" constant="65" id="Y04-BJ-lhd"/>
@@ -64,6 +78,12 @@
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
